@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp" >
+
+    <TextView android:id="@+id/tv_stu_id"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <TextView android:id="@+id/tv_stu_userid"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:layout_weight="1"/>
+    <TextView android:id="@+id/tv_stu_name"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:layout_weight="1"/>
+
+    <TextView android:id="@+id/tv_stu_pwd"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+
+
+        android:layout_weight="1"/>
+
+    <TextView android:id="@+id/tv_stu_sex"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:layout_weight="1"
+        />
+    <TextView android:id="@+id/tv_stu_likes"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
